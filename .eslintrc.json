@@ -53,7 +53,8 @@
     "@typescript-eslint/explicit-module-boundary-types": [
       "warn"
     ],
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off"
   },
   "settings": {
     "import/resolver": {
