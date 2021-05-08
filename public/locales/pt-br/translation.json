@@ -1,0 +1,61 @@
+{
+  "geral": {
+    "actions": {
+      "to_save": "Salvar",
+      "to_add": "Adicionar",
+      "to_edit": "Editar",
+      "to_remove": "Remover",
+      "to_manage": "Gerenciar",
+      "to_clear": "Limpar",
+      "link": "Vincular",
+      "request": "Solicitar",
+      "activate": "Ativar",
+      "deactivate": "Destivar",
+      "filtrate": "Filtrar"
+    },
+    "menus": {
+      "home_page": "Início",
+      "configurations_page": "Configurações",
+      "configurations_status_page": "Gerenciar status",
+      "configurations_kanban_page": "Gerenciar kanban",
+      "configurations_column_page": "Gerenciar colunas do kanban",
+      "configurations_rules_page": "Gerenciar regras da coluna do kanban"
+    }
+  },
+  "auth": {
+    "actions": {
+      "to_log_in": "Entrar",
+      "log_out": "Sair"
+    }
+  },
+  "home": {
+    "wellcome": "Bem vindo"
+  },
+  "configurations": {
+    "status_page": {
+      "module": "status",
+      "title": "Status",
+      "subtitle": "Status são usados para identificar etapas no processo de solicitação de E-Documents, também são usados em kanbans como colunas."
+    },
+    "kanban_page": {
+      "module": "kanban",
+      "title": "Gerenciar Kanban",
+      "subtitle": "Kanban é uma vizualização por colunas (status) das solicitações de documentos."
+    },
+    "column_page": {
+      "module": "coluna do kanban",
+      "title": "Gerenciar Colunas do Kanban",
+      "subtitle": "As colunas do kanban servem para acompanhar o andamento das solicitações e cada coluna representa um status de solicitação de documento."
+    },
+    "rules_page": {
+      "module": "regra da coluna",
+      "title": "Gerenciar Regras da coluna",
+      "subtitle": "As colunas do kanban podem ter regras, como a de movimentação das solicitações entre colunas.",
+      "status_change_rules_title": "Regras de troca de status",
+      "status_change_rules_subtitle": "Aqui você irá definir para quais colunas os cards poderão ser movidos"
+    },
+    "rules_fields": {
+      "kanban_next_status_id": "Próximo status"
+    }
+  }
+}
